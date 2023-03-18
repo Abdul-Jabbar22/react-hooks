@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import "./Hooks.css"
+// import UseStateHook from './UseStateHook';
+// import UseState2 from './UseState2';
+// import UseReducer from './UseReducer';
+// import UseEffect from './UseEffect';
+// import ReflectHook from './ReflectHook';
+// import UseLayoutEffect from './UseLayoutEffect';
+// import UseImperativeHandle from './UseImperativeHandle';
+// import UseContext from './UseContext';
+// import UseMemo from './UseMemo';
+import UseCallBack from './UseCallBack';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <UseStateHook />,
+    // <UseState2 />,
+    // <UseReducer />,
+    // <UseEffect />,
+    // <ReflectHook />,
+    // <UseLayoutEffect />,
+    // <UseImperativeHandle />,
+    // <UseContext />,
+    // <UseMemo />,
+    <UseCallBack />
   );
 }
 
